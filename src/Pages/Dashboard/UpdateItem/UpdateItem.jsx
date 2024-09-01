@@ -14,7 +14,7 @@ import useAxiosPublic from "../../../hooks/useAxiosPublic";
 
 const UpdateItem = () => {
    
- const{name,recipe,price,category,_id} = useLoaderData()
+ const{name,recipe,price,category,_id,image} = useLoaderData()
 
 
 
@@ -125,7 +125,7 @@ const onSubmit = async (data) => {
                 
             </div>
             <div className="form-control w-full my-6 ">
-            <input {...register ("image" , {required:true})}  type="file" className="file-input w-full max-w-xs" />
+            <input {...register ("image" , {required:true})}  placeholder="Image"  type="file" className="file-input w-full max-w-xs" />
             </div>
                 <button className="btn text-white bg-gradient-to-r from-[#835D23] to-[#B58130]">
                Update Button

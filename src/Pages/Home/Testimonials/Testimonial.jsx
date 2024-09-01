@@ -15,7 +15,7 @@ import quote from '../../../assets/home/quote-left 1.jpg'
 const Testimonial = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('https://bistro-boss-server-flax.vercel.app//reviews')
+        fetch('https://bistro-boss-server-flax.vercel.app/reviews')
             .then(res => res.json())
             .then(data => {
                 setReviews(data);

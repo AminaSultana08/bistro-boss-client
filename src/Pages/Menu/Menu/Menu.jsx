@@ -33,16 +33,16 @@ const Menu = () => {
 
       {/**dessert items */}
       
-      <MenuCategory items={desserts} title="dessert" description='Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' img={dessertImg}></MenuCategory>
+      <MenuCategory items={desserts} title="dessert" description='Treat yourself to our delectable desserts, from rich chocolate cakes to creamy cheesecakes. Each sweet creation is made to perfection, promising a delightful end to your meal. Order now and indulge in pure dessert bliss!' img={dessertImg}></MenuCategory>
 
       {/**pizza item */}
-      <MenuCategory items={pizza} title="pizza" description="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." img={pizzaImg}></MenuCategory>
+      <MenuCategory items={pizza} title="pizza" description="Enjoy our mouth-watering pizzas, topped with the freshest ingredients and baked to perfection. From classic margherita to gourmet specialties, there's a slice for everyone. Satisfy your pizza cravings with every bite!" img={pizzaImg}></MenuCategory>
 
       {/**salads item */}
-      <MenuCategory items={salad} title="salads" description="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." img={saladImg}></MenuCategory>
+      <MenuCategory items={salad} title="salads" description="Our fresh salads are a vibrant mix of crisp vegetables and flavorful dressings. Perfect as a healthy meal or a refreshing side, each salad is both nutritious and delicious. Dive into a bowl of goodness today!" img={saladImg}></MenuCategory>
 
       {/**soup */}
-      <MenuCategory items={soup} title="soup" description="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." img={soupImg}></MenuCategory>
+      <MenuCategory items={soup} title="soup" description=" Warm up with our comforting soups, made from scratch with wholesome ingredients. Whether you prefer creamy or broth-based, our soups are perfect for a cozy meal. Experience the soothing flavors of our homemade soups today!" img={soupImg}></MenuCategory>
         
         
     </div>
